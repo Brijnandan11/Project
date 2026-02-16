@@ -8,7 +8,7 @@ function TodoStats({ activeCount, onClearCompleted }) {
                 onClick={onClearCompleted}
                 className="px-4 py-2 border border-text-secondary text-text-secondary rounded-lg text-sm font-medium transition-all duration-300 hover:border-accent hover:text-accent hover:-translate-y-0.5 hover:shadow-lg hover:shadow-accent/20 active:translate-y-0"
             >
-                Clear completed
+                Clear clearCompleted
             </button>
         </div>
     )
